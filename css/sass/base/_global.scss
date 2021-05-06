@@ -1,0 +1,48 @@
+html,
+body {
+  letter-spacing: 1px;
+  overflow-x: hidden;
+  font-family: "Rubik", sans-serif;
+}
+
+.disable-scroll {
+  overflow-y: hidden;
+}
+
+.main-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.active {
+  border-bottom: 3px solid $soft-red !important;
+}
+
+.hamburger {
+  z-index: 20;
+  position: fixed;
+  right: 25px;
+  top: 20px;
+  display: none !important;
+}
+
+.nav-active {
+  opacity: 1 !important;
+  z-index: 15 !important;
+}
+
+.remove-click {
+  cursor: default;
+  pointer-events: none;
+}
+
+@keyframes fadeText {
+  0% {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
