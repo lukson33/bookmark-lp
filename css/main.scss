@@ -1,0 +1,18 @@
+// 1. Configuration and helpers
+@import "sass/abstracts/variables";
+
+// 2. Base
+@import "sass/base/global";
+@import "sass/base/reset";
+
+// 3. Components
+@import "sass/components/navigation";
+@import "sass/components/input";
+
+// 4. Layout sections
+@import "sass/layout/header";
+@import "sass/layout/features";
+@import "sass/layout/browsers";
+@import "sass/layout/questions";
+@import "sass/layout/footer";
+@import "sass/layout/responsive";
