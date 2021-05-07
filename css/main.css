@@ -136,6 +136,64 @@ html {
   background-color: #fff;
 }
 
+.blue {
+  padding: 8rem 0;
+  background-color: #5368df;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  margin-top: 5rem;
+}
+
+.blue__content {
+  text-align: center;
+}
+
+.blue__content p {
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  margin-bottom: 3rem;
+  letter-spacing: 5px;
+}
+
+.blue__content h3 {
+  font-size: 4rem;
+  width: 75%;
+  margin: 0 auto 3rem auto;
+}
+
+.blue__input input {
+  margin-right: 1.5rem;
+  background-color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 1.5rem 3rem;
+  width: 250px;
+  font-size: 1.5rem;
+}
+
+.blue__input a {
+  font-size: 1.5rem;
+  background-color: #fa5757;
+  padding: 1.3rem 3rem;
+  border-radius: 5px;
+  border: 2px solid #fa5757;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.blue__input a:hover {
+  color: #fa5757;
+  background-color: #fff;
+}
+
 .header {
   height: 100vh;
   color: #252b46;
@@ -401,5 +459,61 @@ html {
 
 .browsers .card__dots {
   margin: 3rem 0;
+}
+
+.footer {
+  padding: 5rem 0;
+  background-color: #252b46;
+}
+
+.footer__content {
+  width: 75%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__nav object {
+  fill: #fff;
+}
+
+.footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__link {
+  padding: 0 2.5rem;
+  font-size: 1.6rem;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.footer__link:hover {
+  color: #fa5757;
+}
+
+.footer__icons img {
+  padding: 0 2.5rem;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */

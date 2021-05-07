@@ -1,0 +1,52 @@
+//Input
+.blue {
+  padding: 8rem 0;
+  background-color: $soft-blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin-top: 5rem;
+
+  &__content {
+    text-align: center;
+    p {
+      text-transform: uppercase;
+      font-size: 1.7rem;
+      margin-bottom: 3rem;
+      letter-spacing: 5px;
+    }
+
+    h3 {
+      font-size: 4rem;
+      width: 75%;
+      margin: 0 auto 3rem auto;
+    }
+  }
+
+  &__input {
+    input {
+      margin-right: 1.5rem;
+      background-color: #fff;
+      border: none;
+      border-radius: 3px;
+      padding: 1.5rem 3rem;
+      width: 250px;
+      font-size: 1.5rem;
+    }
+
+    a {
+      font-size: 1.5rem;
+      background-color: $soft-red;
+      padding: 1.3rem 3rem;
+      border-radius: 5px;
+      border: 2px solid $soft-red;
+      transition: 0.2s all;
+
+      &:hover {
+        color: $soft-red;
+        background-color: #fff;
+      }
+    }
+  }
+}
